@@ -19,7 +19,7 @@
           "client_type": 1,
           "android_info": {
             "package_name": "com.avi_ud.gettaxi1",
-            "certificate_hash": "30e3e6124ec375e7952fae6673524f9491216882"
+            "certificate_hash": "EnterYourCertificate_hase"
           }
         },
         {
@@ -29,7 +29,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBMV0D0p3934Up8YzNo5QoffhRokpSmgNc"
+          "current_key": "EnterYourApiKey"
         }
       ],
       "services": {
