@@ -18,7 +18,7 @@
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="empty_filed_error">This field cannot be empty</string>
-    <string name="oauth_key">273693920337-kooojok7q3n1779kea13oo9doav0gini.apps.googleusercontent.com</string>
+    <string name="oauth_key">EnterYouroauthKey</string>
     <string name="distance">Distance</string>
     <string name="km_from_you">KM from you</string>
     <string name="short_rides">Short Rides</string>
