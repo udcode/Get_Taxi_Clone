@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Get Taxi Driver</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="id_number">ID Number</string>
+    <string name="email">Email</string>
+    <string name="birthday">Birthday</string>
+    <string name="car_type">Car Type</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="empty_filed_error">This field cannot be empty</string>
+    <string name="oauth_key">273693920337-kooojok7q3n1779kea13oo9doav0gini.apps.googleusercontent.com</string>
+    <string name="distance">Distance</string>
+    <string name="km_from_you">KM from you</string>
+    <string name="short_rides">Short Rides</string>
+    <string name="long_rides">Long Rides</string>
+    <string name="filter">Filter</string>
+</resources>

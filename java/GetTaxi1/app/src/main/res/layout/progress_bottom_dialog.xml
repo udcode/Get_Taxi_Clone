@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/Orange"
+    android:orientation="vertical"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:progressBackgroundTint="@color/Orange"
+        android:progressTint="@color/DeepOrange"
+        android:secondaryProgressTint="@color/AccentOrange"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/okImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/AccentOrange"
+        android:theme="@android:style/Widget.Material.Light.ProgressBar.Large"
+        android:tint="@color/AccentOrange"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_baseline_done_24px" />
+
+    <TextView
+        android:id="@+id/infoTxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/DeepOrange"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

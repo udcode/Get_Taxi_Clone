@@ -1,0 +1,145 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardBackgroundColor="#E6E6E6"
+        card_view:cardCornerRadius="8dp">
+        card_view:cardElevation="8dp">
+
+        <!-- Main Content View -->
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/dateTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:text="Date:"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/dateTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                card_view:layout_constraintBottom_toBottomOf="@+id/dateTxtView"
+                card_view:layout_constraintStart_toStartOf="@+id/fromTxt"
+                card_view:layout_constraintTop_toTopOf="@+id/dateTxtView" />
+
+
+            <TextView
+                android:id="@+id/fromTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+
+                android:layout_marginTop="8dp"
+                android:text="FROM:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/black"
+                card_view:layout_constraintStart_toStartOf="@+id/dateTxtView"
+                card_view:layout_constraintTop_toBottomOf="@+id/dateTxtView" />
+
+
+            <TextView
+                android:id="@+id/fromTxt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:singleLine="true"
+                android:text="src"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/black"
+                card_view:layout_constraintBottom_toBottomOf="@+id/fromTxtView"
+                card_view:layout_constraintEnd_toStartOf="@+id/item_info"
+                card_view:layout_constraintStart_toStartOf="@+id/toTxt"
+                card_view:layout_constraintTop_toTopOf="@+id/fromTxtView" />
+
+            <TextView
+                android:id="@+id/toTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="TO:"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                card_view:layout_constraintStart_toStartOf="@+id/fromTxtView"
+                card_view:layout_constraintTop_toBottomOf="@+id/fromTxtView" />
+
+            <TextView
+                android:id="@+id/toTxt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:singleLine="true"
+                android:text="dest"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/black"
+                card_view:layout_constraintBottom_toBottomOf="@+id/toTxtView"
+                card_view:layout_constraintEnd_toStartOf="@+id/item_info"
+                card_view:layout_constraintStart_toStartOf="@+id/driverNameTxt"
+                card_view:layout_constraintTop_toTopOf="@+id/toTxtView" />
+
+
+            <ImageView
+                android:id="@+id/item_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="8dp"
+                android:src="@mipmap/taxi_icon_round"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/driverNameTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:text="Driver Name:"
+                android:textColor="@android:color/black"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintStart_toStartOf="@+id/toTxtView"
+                card_view:layout_constraintTop_toBottomOf="@+id/toTxtView" />
+
+            <TextView
+                android:id="@+id/driverNameTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="8dp"
+                android:text="Android 6.0"
+                android:textColor="@android:color/black"
+                card_view:layout_constraintBottom_toBottomOf="@+id/driverNameTxtView"
+                card_view:layout_constraintStart_toEndOf="@+id/driverNameTxtView"
+                card_view:layout_constraintTop_toTopOf="@+id/driverNameTxtView" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

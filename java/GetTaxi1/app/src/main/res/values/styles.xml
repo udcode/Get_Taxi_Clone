@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Orange</item>
+        <item name="colorPrimaryDark">@color/DeepOrange</item>
+        <item name="colorAccent">@color/AccentOrange</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Widget.CalendarView.Custom" parent="android:Widget.CalendarView">
+        <item name="android:focusedMonthDateColor">@color/Orange</item>
+        <item name="android:weekNumberColor">@color/DeepOrange</item>
+    </style>
+
+    <style name="TaxiTextHint" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/DeepOrange</item>
+        <item name="android:textColorHint">@color/DeepOrange</item>
+        <item name="colorAccent">@color/DeepOrange</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TaxiTextInputLayout" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/Orange</item>
+        <item name="hintTextAppearance">@style/TaxiTextHint</item>
+    </style>
+
+    <style name="TaxiTextInputEditText">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="TaxiButton" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/DeepOrange</item>
+        <item name="rippleColor">@color/Orange</item>
+        <item name="strokeColor">@color/Orange</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Button</item>
+    </style>
+    <style name="TaxiTextButton" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/DeepOrange</item>
+        <item name="rippleColor">@color/Orange</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Button</item>
+
+    </style>
+    <style name="Slide">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+    <style name="FullScreenDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimaryDark">@color/DeepOrange</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/Orange</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="actionMenuTextColor">@color/colorAccent</item>
+    </style>
+</resources>
